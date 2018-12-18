@@ -1,0 +1,13 @@
+main: me.noahvdaa.deathcommands.Main
+name: DeathCommands
+version: 1.0
+api-version: 1.13
+permissions:
+    deathcommands.bypass:
+        default: false
+    deathcommands.reload:
+        default: false
+commands:
+   dcreload:
+      description: Reload the DeathCommands config file.
+      usage: /nnrreload

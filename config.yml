@@ -1,0 +1,20 @@
+#
+# Commands that are executed on death, by the console.
+#
+# Available Placeholders:
+# %player% | Playername
+# %death_x% | X coordinate the player died at.
+# %death_y% | Y coordinate the player died at.
+# %death_z% | Z coordinate the player died at.
+#
+# Don't forget to customize these commands, these are just examples!
+#
+
+deathcommands:
+  - 'say %player% died and will be banned for 1 day!'
+  - 'tempban %player% 1d You died at: X %death_x%, Y %death_y%, Z %death_z%.'
+  
+# No Permissions on reload message
+noReloadPermsMessage: '&cYou don''t have enough permissions to execute this command.'
+# Reload succeeded message.
+reloadedMessage: '&aReloaded!'
